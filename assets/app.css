@@ -16,14 +16,17 @@
     font-size: 3em;
 }
 
+.top-header p {
+    font-size: 1.7em;
+}
+
 .navbar ul {
-    display: flex;
     list-style-type: none;
 }
 
 .navbar li {
-    font-size: 2em;
     padding: 1.5em;
+    font-size: 1.25em;
 }
 
 .navbar a {
@@ -35,11 +38,22 @@ main {
     background: linear-gradient(#c0eae0, #0EAD69)
 }
 
-/* ********Application boxes********* */
+/* ********About Section********* */
+.about h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+/* ********Application Section********** */
+.applications h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
 .applications {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .app-placeholder {
@@ -49,6 +63,12 @@ main {
     background-color: white;
     margin: 1%;
     box-shadow: 5px 5px 5px grey;
+}
+
+/* ***********Contact Box******** */
+.contact h3 {
+    font-size: 3em;
+    text-align: center;
 }
 
 
