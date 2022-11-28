@@ -39,30 +39,46 @@ main {
 }
 
 /* ********About Section********* */
-.about h2 {
-    font-size: 3em;
-    text-align: center;
-}
-
-/* ********Application Section********** */
-.applications h2 {
-    font-size: 3em;
-    text-align: center;
-}
-
-.applications {
+.about {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.app-placeholder {
+.about h2 {
+    font-size: 3em;
+}
+
+.profile-pic {
+    width: 400px;
+    height: 400px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+/* ********Application Section********** */
+.application-section h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.application-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.application {
     Width: 50%;
-    height: 200px;
+    height: 300px;
     border: 3px solid black;
     background-color: white;
     margin: 1%;
     box-shadow: 5px 5px 5px grey;
+}
+
+.app-img {
+    width: 100%;
+    height: 100%;
 }
 
 /* ***********Contact Box******** */
