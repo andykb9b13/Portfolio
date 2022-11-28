@@ -1,5 +1,22 @@
+/* ******************************************************* 
+* Developer Portfolio
+* Created by: Andy Kleindienst
+* 11/25/22
+*
+***********************************************************/
+
+
+/* ********font-family for whole doc*********** */
 * {
     font-family: 'Syne Mono', monospace, sans-serif;
+}
+
+/* *******header font-styling */
+
+h1,
+h2,
+h3 {
+    font-size: 3em;
 }
 
 /* ********* Navbar and top header******* */
@@ -10,10 +27,6 @@
     width: 100%;
     height: 25%;
     border: 3px solid black;
-}
-
-.top-header h1 {
-    font-size: 3em;
 }
 
 .top-header p {
@@ -41,13 +54,18 @@ main {
 /* ********About Section********* */
 .about {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
 
-.about h2 {
-    font-size: 3em;
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 5px solid #540D6E;
 }
+
+
 
 .profile-pic {
     width: 400px;
@@ -55,20 +73,25 @@ main {
     box-shadow: 5px 5px 5px grey;
 }
 
-/* ********Application Section********** */
-.application-section h2 {
-    font-size: 3em;
-    text-align: center;
+/* *********section container styling ******* */
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    border-left: 5px solid #540D6E;
+    border-top: 10px solid #540D6E;
 }
+
+/* ********Application Section********** */
 
 .application-section {
     display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .application {
-    Width: 50%;
+    Width: 500px;
     height: 300px;
     border: 3px solid black;
     background-color: white;
@@ -76,17 +99,12 @@ main {
     box-shadow: 5px 5px 5px grey;
 }
 
-.app-img {
+.website-preview {
     width: 100%;
     height: 100%;
 }
 
 /* ***********Contact Box******** */
-.contact h3 {
-    font-size: 3em;
-    text-align: center;
-}
-
 
 
 /* *********Responsive Design*********** */
