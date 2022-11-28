@@ -2,6 +2,7 @@
     font-family: 'Syne Mono', monospace, sans-serif;
 }
 
+/* ********* Navbar and top header******* */
 .top-header {
     display: flex;
     justify-content: space-between;
@@ -31,23 +32,28 @@
 }
 
 main {
-    background: linear-gradient(#3BCEAC, #0EAD69)
+    background: linear-gradient(#c0eae0, #0EAD69)
 }
 
+/* ********Application boxes********* */
 .applications {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .app-placeholder {
     Width: 50%;
     height: 200px;
     border: 3px solid black;
-    background: #540D6E;
+    background-color: white;
     margin: 1%;
-
+    box-shadow: 5px 5px 5px grey;
 }
 
+
+
+/* *********Responsive Design*********** */
 @media screen and (max-width: 850px) {
 
     .navbar ul,
