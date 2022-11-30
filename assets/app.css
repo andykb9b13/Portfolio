@@ -22,18 +22,28 @@ h3 {
 /* ********* Navbar and top header******* */
 .top-header {
     display: flex;
-    justify-content: space-between;
-    background: linear-gradient(10deg, #540D6E, #EE4266, #FFD23F, #3BCEAC, #0EAD69);
+    justify-content: space-around;
+    /* background: linear-gradient(10deg, #540D6E, #EE4266, #FFD23F, #3BCEAC, #0EAD69); */
     width: 100%;
     height: 25%;
     border: 3px solid black;
+}
+
+.top-header h1 {
+    margin-bottom: 0px;
 }
 
 .top-header p {
     font-size: 1.7em;
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
 .navbar ul {
+    display: flex;
     list-style-type: none;
 }
 
@@ -44,11 +54,12 @@ h3 {
 
 .navbar a {
     text-decoration: none;
-    color: white;
+    font-size: 1.25em;
+    color: black;
 }
 
 main {
-    background: linear-gradient(#c0eae0, #0EAD69)
+    /* background: linear-gradient(#c0eae0, #0EAD69) */
 }
 
 /* ********About Section********* */
@@ -62,7 +73,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-left: 5px solid #540D6E;
+    border-left: 5px solid black;
 }
 
 
@@ -80,8 +91,8 @@ main {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    border-left: 5px solid #540D6E;
-    border-top: 10px solid #540D6E;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
 }
 
 /* ********Application Section********** */
