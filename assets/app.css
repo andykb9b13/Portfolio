@@ -29,7 +29,7 @@ h3 {
     background-image: url("https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80");
     background-position: center;
     margin-bottom: 50px;
-    transition: 5s;
+    transition: 2s;
 }
 
 /* make the bkgd picture move on hover */
@@ -69,8 +69,9 @@ h3 {
 }
 
 /* making the text jump and separate on hover  */
-.navbar a:hover {
-    letter-spacing: 0.25em;
+.navbar li:hover a {
+    font-size: 1.3em;
+    letter-spacing: 0.15em;
     color: white;
 }
 
