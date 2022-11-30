@@ -69,11 +69,12 @@ h3 {
 
 }
 
-/* making the text jump and separate on hover  */
+/* making the text jump, change color, and add shadow on hover  */
 .navbar li:hover a {
     font-size: 1.3em;
-    letter-spacing: 0.15em;
     color: white;
+    text-shadow: 5px 5px 10px white;
+    text-decoration: underline;
 }
 
 .navbar a {
@@ -136,7 +137,15 @@ h2:hover {
     border: 3px solid black;
     background-color: white;
     margin: 1%;
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 1px 1px 2px 3px rgb(59, 59, 147);
+    transition: 0.5s;
+}
+
+/* Adding a popping effect and more shadow when hovered over */
+.applications:hover {
+    offset-position: bottom 10px right 10px;
+    box-shadow: 10px 10px 10px 3px rebeccapurple;
+    transform: translate(-.25em, -.25em);
 }
 
 .website-preview {
