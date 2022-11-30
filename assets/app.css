@@ -62,29 +62,12 @@ main {
     /* background: linear-gradient(#c0eae0, #0EAD69) */
 }
 
-/* ********About Section********* */
-.about {
+/* *********section container styling ******* */
+.section-outer-box {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
-
-.about-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-left: 5px solid black;
-}
-
-
-
-.profile-pic {
-    width: 400px;
-    height: 400px;
-    box-shadow: 5px 5px 5px grey;
-}
-
-/* *********section container styling ******* */
 
 .section-container {
     display: flex;
@@ -95,13 +78,16 @@ main {
     border-top: 5px solid black;
 }
 
-/* ********Application Section********** */
+/* ********About Section********* */
 
-.application-section {
-    display: flex;
+.profile-pic {
+    width: 30%;
+    box-shadow: 5px 5px 5px grey;
 }
 
-.application {
+/* ********Application Section********** */
+
+.applications {
     Width: 500px;
     height: 300px;
     border: 3px solid black;
