@@ -32,7 +32,7 @@ h3 {
     transition: 5s;
 }
 
-/* trying to make the bkgd picture move on hover */
+/* make the bkgd picture move on hover */
 .top-header:hover {
     background-position: top;
 }
@@ -62,6 +62,16 @@ h3 {
 .navbar li {
     padding: 1.5em;
     font-size: 1.6em;
+}
+
+.navbar a {
+    transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* making the text jump and separate on hover  */
+.navbar a:hover {
+    letter-spacing: 0.25em;
+    color: white;
 }
 
 .navbar a {
