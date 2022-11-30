@@ -1,6 +1,6 @@
 /* ******************************************************* 
-* Developer Portfolio
-* Created by: Andy Kleindienst
+* Portfolio App
+* Developer: Andy Kleindienst
 * 11/25/22
 *
 ***********************************************************/
@@ -19,14 +19,15 @@ h3 {
     font-size: 3em;
 }
 
-/* ********* Navbar and top header******* */
+/* ********* Navbar and top header styles ******* */
 .top-header {
     display: flex;
     justify-content: space-around;
-    /* background: linear-gradient(10deg, #540D6E, #EE4266, #FFD23F, #3BCEAC, #0EAD69); */
     width: 100%;
     height: 25%;
     border: 3px solid black;
+    background-image: url("https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80");
+    margin-bottom: 50px;
 }
 
 .top-header>div {
@@ -62,8 +63,7 @@ h3 {
     color: black;
 }
 
-
-/* *********section container styling ******* */
+/* ********* section container styles ******* */
 .section-outer-box {
     display: flex;
     flex-direction: row;
@@ -83,16 +83,23 @@ h2 {
     align-items: center;
     border-left: 5px solid black;
     border-top: 5px solid black;
+    background-image: linear-gradient(#5f5caa, white);
 }
 
-/* ********About Section********* */
+/* ******** About Section ********* */
 
 .profile-pic {
     width: 40%;
     box-shadow: 5px 5px 5px grey;
+    margin-top: 10px;
 }
 
-/* ********Application Section********** */
+.bio p {
+    margin-left: 5px;
+}
+
+
+/* ******** Application Section ********** */
 
 .applications {
     Width: 70%;
@@ -102,17 +109,15 @@ h2 {
     box-shadow: 5px 5px 5px grey;
 }
 
-
-
 .website-preview {
     width: 100%;
     height: 100%;
 }
 
-/* ***********Contact Box******** */
+/* *********** Contact Box ******** */
 
 
-/* *********Responsive Design*********** */
+/* ********* Responsive Design *********** */
 
 /* changing the font size of links in navbar */
 @media screen and (max-width: 1010px) {
@@ -136,6 +141,16 @@ h2 {
     }
 }
 
+/* changing the direction of  */
+
+@media screen and (max-width: 670px) {
+
+    .navbar ul {
+        flex-direction: column;
+        /* font-size: 1em; */
+    }
+}
+
 /* putting the h1 and links in a column */
 @media screen and (max-width: 425px) {
     .top-header {
@@ -146,15 +161,5 @@ h2 {
 @media screen and (max-width: 425px) {
     .section-outer-box {
         flex-direction: column;
-    }
-}
-
-/* changing the direction of  */
-
-@media screen and (max-width: 670px) {
-
-    .navbar ul {
-        flex-direction: column;
-        /* font-size: 1em; */
     }
 }
