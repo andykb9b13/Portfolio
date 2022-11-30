@@ -94,14 +94,10 @@ h3 {
 h2 {
     width: 30%;
     position: relative;
-    top: 200px;
     transition: 1s;
 }
 
-/* movement of h2 text and adding an underline when hovered over */
-.section-outer-box:hover h2 {
-    top: 0px;
-}
+/* adding an underline when hovered over */
 
 h2:hover {
     text-decoration: underline;
