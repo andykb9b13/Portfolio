@@ -11,6 +11,6 @@ The goal of this project was to make a website for showcasing the design and pro
 2. Functionality: Navigation links that take you to a specific section when clicked on.
 3. UI/UX Design: The design should be appealing and create an interactive user experience with changing colors, sizes, and positions when hovered over. 
 
-![Andy Kleindienst portfolio](assets/images/Andy-kleindienst-portfolio-live-site.png)
+![Andy Kleindienst portfolio](./assets/images/Andy-kleindienst-portfolio-live-site.png)
 
 
