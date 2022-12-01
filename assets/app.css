@@ -9,19 +9,19 @@
     --border-color: #3c3a6b;
 }
 
-/* ********font-family for whole doc*********** */
+/* font-family for whole doc */
 * {
     font-family: 'Syne Mono', monospace, sans-serif;
 }
 
-/* *******header font-styling */
+/* header font-styling */
 
 h1,
 h2 {
     font-size: 3em;
 }
 
-/* ********* Navbar and top header styles ******* */
+/* *************** Navbar and top header styles ***************************************** */
 .top-header {
     display: flex;
     justify-content: space-around;
@@ -85,7 +85,7 @@ h2 {
     color: black;
 }
 
-/* ********* section container styles ******* */
+/*  ********* section container styles ******* */
 .section-outer-box {
     display: flex;
     flex-direction: row;
@@ -100,7 +100,7 @@ h2 {
     transition: 1s;
 }
 
-/* adding an underline when hovered over */
+/* adding an underline to h2s when hovered over */
 
 h2:hover {
     text-decoration: underline;
@@ -124,7 +124,7 @@ h2:hover {
     border-color: white;
 }
 
-/* ******** About Section ********* */
+/* ******************** About Section ******************************** */
 
 .profile-pic {
     width: 40%;
@@ -137,7 +137,7 @@ h2:hover {
 }
 
 
-/* ******** Application Section ********** */
+/* *************** Application Section *********************************/
 
 .applications {
     Width: 70%;
@@ -168,7 +168,7 @@ h3 {
     border: 2px solid var(--border-color);
 }
 
-/* *********** Contact Box ******** */
+/* *********** Contact Section ***************************************** */
 #contact-box {
     justify-content: center;
     padding: 10px;
@@ -210,7 +210,12 @@ h3 {
     font-size: 1.4em;
 }
 
-/* ********* Responsive Design *********** */
+/* ************* Footer styling ************************************** */
+footer {
+    text-align: center;
+}
+
+/* ********* Responsive Design **************************************** */
 
 /* changes the font size of links in navbar */
 @media screen and (max-width: 1010px) {
@@ -246,7 +251,7 @@ h3 {
     }
 }
 
-/* putting the h1 and links in a column */
+/* putting the h1 and links in a column and changing font size of h3s */
 @media screen and (max-width: 425px) {
     .top-header {
         flex-direction: column;
