@@ -135,7 +135,6 @@ h2:hover {
 .applications {
     Width: 70%;
     border: 3px solid black;
-    background-color: white;
     margin: 1%;
     box-shadow: 1px 1px 2px 3px rgb(59, 59, 147);
     transition: 0.5s;
