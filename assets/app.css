@@ -6,6 +6,7 @@
 ***********************************************************/
 :root {
     --background-color: #5f5caa;
+    --border-color: #3c3a6b;
 }
 
 /* ********font-family for whole doc*********** */
@@ -33,7 +34,7 @@ h2 {
     transition: 2s;
 }
 
-/* make the bkgd picture move on hover */
+/* makes the bkgd picture move on hover */
 .top-header:hover {
     background-position: top;
 }
@@ -70,7 +71,7 @@ h2 {
 
 }
 
-/* making the text jump, change color, and add shadow on hover  */
+/* makes the text jump, change color, and add shadow on hover  */
 .navbar li:hover a {
     font-size: 1.3em;
     color: white;
@@ -110,17 +111,17 @@ h2:hover {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    border-left: 5px solid black;
-    border-top: 5px solid black;
+    border-left: 5px solid var(--border-color);
+    border-top: 5px solid var(--border-color);
     background-image: linear-gradient(var(--background-color), white);
-    transition: 2s;
+    transition: 1.4s ease-in-out;
 }
 
+/* makes the background and text color change on hover */
 .section-container:hover {
-    background-image: linear-gradient(0.5turn, white, var(--background-color));
+    background: #3c3a6b;
+    color: white;
 }
-
-/* container movement when hovered over */
 
 /* ******** About Section ********* */
 
@@ -139,14 +140,15 @@ h2:hover {
 
 .applications {
     Width: 70%;
-    border: 3px solid black;
+    border: 2px solid var(--border-color);
     margin: 1%;
-    box-shadow: 1px 1px 2px 3px rgb(59, 59, 147);
+    box-shadow: 3px 3px 5px 5px rgb(59, 59, 147);
     transition: 0.5s;
 }
 
 /* Adding a popping effect and more shadow when hovered over */
 .applications:hover {
+    width: 73%;
     offset-position: bottom 10px right 10px;
     box-shadow: 10px 10px 10px 3px rebeccapurple;
     transform: translate(-.25em, -.25em);
@@ -160,8 +162,9 @@ h2:hover {
 h3 {
     position: absolute;
     z-index: auto;
-    background-color: rgb(178, 178, 178);
+    background: linear-gradient(0.75turn, white, rebeccapurple);
     font-size: 2em;
+    border: 2px solid var(--border-color);
 }
 
 /* *********** Contact Box ******** */
@@ -205,20 +208,23 @@ h3 {
 
 /* ********* Responsive Design *********** */
 
-/* changing the font size of links in navbar */
+/* changes the font size of links in navbar */
 @media screen and (max-width: 1010px) {
     .navbar li {
         font-size: 1.5em;
     }
 }
 
+/* changes font size of text in navbar and labels on applications */
 @media screen and (max-width: 850px) {
-    .navbar li {
+
+    .navbar li,
+    .applications h3 {
         font-size: 1.3em;
     }
 }
 
-/* changing the size of the headers */
+/* changes the size of the headers */
 @media screen and (max-width: 730px) {
 
     h1,
@@ -227,13 +233,12 @@ h3 {
     }
 }
 
-/* changing the direction of  */
+/* changes the direction of navbar ul */
 
 @media screen and (max-width: 670px) {
 
     .navbar ul {
         flex-direction: column;
-        /* font-size: 1em; */
     }
 }
 
@@ -242,10 +247,13 @@ h3 {
     .top-header {
         flex-direction: column;
     }
-}
 
-@media screen and (max-width: 425px) {
     .section-outer-box {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .applications h3 {
+        font-size: 1em;
     }
 }
