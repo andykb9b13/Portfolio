@@ -13,4 +13,7 @@ The goal of this project was to make a website for showcasing the design and pro
 
 ![Andy Kleindienst portfolio](./assets/images/Andy-kleindienst-portfolio-live-site.png)
 
+## Portfolio Live Site Link
+https://andykb9b13.github.io/Portfolio/
+
 
