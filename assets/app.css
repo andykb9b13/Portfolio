@@ -145,7 +145,26 @@ h2:hover {
 }
 
 /* *********** Contact Box ******** */
+#contact-box {
+    justify-content: center;
+}
 
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#contact-form label {
+    font-size: 2em;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 50%;
+    font-size: 1.25em;
+}
 
 /* ********* Responsive Design *********** */
 
