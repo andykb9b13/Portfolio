@@ -15,5 +15,3 @@ The goal of this project was to make a website for showcasing the design and pro
 
 ## Portfolio Live Site Link
 https://andykb9b13.github.io/Portfolio/
-
-
